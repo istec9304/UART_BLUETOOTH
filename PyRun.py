@@ -2,7 +2,7 @@ import asyncio
 from bleak import BleakScanner, BleakClient
 
 # BLE 장치 UUID
-device_name = "uart1"
+device_name = "HMSoft" #도움말 https://m.cafe.daum.net/smhan/darS/26
 
 async def scan_and_connect():
     print("Scanning for BLE devices...")
